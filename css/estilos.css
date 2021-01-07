@@ -1,0 +1,148 @@
+body{
+    background-image: url(/imagenes/index.jpg);
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    }
+
+.reg{
+    width: auto;
+    position: relative;
+    left: -120px;
+    top: -54px;
+    border-radius: 5px;
+}
+.principal{
+   align-content: center;
+    align-content: center;
+    width: 350px ;
+    height: 600px;
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 6px;
+    position: relative;
+    bottom: -50px;
+}
+.principal2{
+    width: 350px;
+    height: auto;
+    background-color: wheat;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    left: 155px;
+    bottom: 565px;
+}
+.sidebar{
+  position: absolute;
+width: 250px;
+height: 100%;
+    background: #162b4E;
+    
+    color: black;
+}  
+.sidebar h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: white;
+}
+.sidebar a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    padding: 10px;
+}
+.sidebar li{
+    outline: 1px solid white;
+    transition: border 0.3s;
+}
+.sidebar li:hover{
+    background: white;
+    border-left: 5px solid ;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(/imagenes/index.jpg);
+    width: 100%;
+    padding: 30px;
+}
+.menu-bar{
+    cursor: pointer;
+}
+
+.abrir{
+    transform: translate(250px);
+}
+.ing{
+    position: relative;
+    left: 1px;
+    border-radius: 5px;
+}
+.rec{
+    position: relative;
+    top: -90px;
+    right: -210px;
+    
+}
+.reg{
+    position: relative;
+    top: -20px;
+}
+.form{
+    position: relative;
+    right: -35px;
+}
+.form1{
+    position: relative;
+    right: -45px;
+}
+.form2{
+    position: relative;
+    right: -5px;
+}
+.form3{
+    position: relative;
+    right: -52px;
+}
+
+.ini{
+    align-items: center;
+    align-content: center;
+    width:500px;
+    height:620px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 2em;
+    padding: 6em;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: -140px;
+    }
+.ses{
+    text-align: center;
+    background-color: aliceblue;
+}
+.img{
+    background-image: url(/imagenes/iniciar-sesion.png);
+    height: 256px;
+    width: 256px;
+    align-content: center;
+   
+    
+}
+.img1{
+    background-image: url(/imagenes/password_icon-icons.com_70002.png);
+    height: 256px;
+    width: 256px;
+    align-content: center;
+   
+    
+}
