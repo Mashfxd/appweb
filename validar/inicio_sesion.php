@@ -3,13 +3,15 @@ error_reporting(E_ALL ^ E_NOTICE);
 session_start();
 $conexion =mysqli_connect("localhost","id15811897_fernando","Monkey1999@@","id15811897_prestamosfinal",'3306');
 
-$user= empty(mysql_fix_string($conexion,$_POST['usuario']));
-$contraseña= password_hash(empty(mysql_fix_string($conexion,$_POST['contraseña'])),PASSWORD_BCRYPT);
+$user= mysql_fix_string($conexion,$_POST['usuario'];
+             
+$contraseña=mysql_fix_string($conexion,$_POST['contraseña']);
+$idpermiso=mysql_fix_string($conexion,$_POST['idpermiso']);
 
 
 
 
-        $consulta=mysqli_query($conexion,"select * FROM usuarios WHERE  login ='$user' and clave=$contraseña");
+        $consulta=mysqli_query($conexion,"select * FROM usuarios WHERE  login ='$user' and clave=$contraseña  and idpermiso=$idpermiso");
         
         if(!$consulta){
           header("location:/formularios/principal.php");
@@ -20,7 +22,7 @@ $contraseña= password_hash(empty(mysql_fix_string($conexion,$_POST['contraseña
           header("location:index.html");
         }else
          echo "ups no salio como esperabas";
-        header("location:ups.php");
+        header("location:/formularios/ups.html");
 function mysql_entities_fix_string($con, $string)
 {
     return htmlentties(mysql_fix_string($con, $string));
