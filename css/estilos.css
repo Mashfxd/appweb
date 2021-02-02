@@ -1,0 +1,262 @@
+body{
+    background-image: url(/imagenes/index.jpg);
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    width:90%;
+    margin: 0 auto;
+    min-width:600px;
+    max-width:2000px;
+    }
+
+.reg{
+    width: auto;
+    position: relative;
+    left: -120px;
+    top: -54px;
+    border-radius: 5px;
+}
+.container-table{
+    width: 95%;
+    background: aliceblue;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #333;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-auto-rows: 40px;
+    
+}
+.container-table2{
+    width: 30%;
+    background: aliceblue;
+    margin: 60px auto;
+    box-shadow: 0 0 20px #333;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 50px;
+    
+}
+.table-title2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: #252850;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+.table-title{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    background: #252850;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+.table-header,.table-item{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+ 
+}
+.table-item{
+      padding: 10px;
+    background:white;
+    font-size:1.5em;
+}
+.table-header2,.table-item2{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+ 
+}
+.table-item2{
+    padding: 10px;
+    font-size:1em;
+  
+}
+.table-header2{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.right{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 500px;
+    width: 50%;
+    top: -500px;
+    border: steelblue solid 1px;
+    height: auto;
+    background-color: aliceblue;
+}
+.nom{
+   position: relative;
+top: -40px;
+}
+.principal{
+   align-content: center;
+    align-content: center;
+    width: 780px ;
+    height: 780px;
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 8px;
+    position: relative;
+    bottom: -50px auto;
+    left:550px;
+}
+.principal2{
+    width: 350px;
+    height: auto;
+    background-color: wheat;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    left: 155px;
+    bottom: 565px;
+}
+.sidebar{
+  position: absolute;
+width: 250px;
+height: 100%;
+    background: #162b4E;
+    
+    color: black;
+}  
+.sidebar h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: white;
+}
+.sidebar a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    padding: 10px;
+}
+.sidebar li{
+    outline: 1px solid white;
+    transition: border 0.3s;
+}
+.sidebar li:hover{
+    background: white;
+    border-left: 5px solid ;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(/imagenes/index.jpg);
+    width: 100%;
+    padding: 30px;
+}
+.menu-bar{
+    cursor: pointer;
+}
+
+.abrir{
+    transform: translate(250px);
+}
+.ing{
+    position: relative;
+    left: 1px;
+    border-radius: 5px;
+}
+.rec{
+    position: relative;
+    top: -90px;
+    right: -210px;
+    
+}
+.reg{
+    position: relative;
+    top: -20px;
+}
+.form{
+    position: relative;
+    top: -50px;
+}
+.form1{
+    position: relative;
+    right: -45px;
+}
+.form2{
+    position: relative;
+    right: -5px;
+}
+.form3{
+    position: relative;
+    right: -52px;
+}
+
+.ini{
+    align-items: center;
+    align-content: center;
+    width:500px;
+    height:500px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 2em;
+    padding: 6em;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: -140px;
+    }
+.ini2{
+    align-items: center;
+    align-content: center;
+    width:500px;
+    height:800px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 2em;
+    padding: 6em;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: -140px; 
+}
+.register{
+     align-items: center;
+    align-content: center;
+    width:500px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 2em;
+    padding: 6em;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: -140px;
+}
+.ses{
+    text-align: center;
+    background-color: aliceblue;
+}
+.img{
+    background-image: url(/imagenes/iniciar-sesion.png);
+    height: 256px;
+    width: 256px;
+    align-content: center;
+   
+    
+}
+.img1{
+    background-image: url(/imagenes/password_icon-icons.com_70002.png);
+    height: 256px;
+    width: 256px;
+    align-content: center;
+   
+    
+}
