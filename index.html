@@ -5,45 +5,39 @@
         <link rel="stylesheet" href="/css/estilos.css">
     <link rel="shortcut icon" href="imagenes/dolar.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-   <div class=""></div>
+   
 
 <body class="boyd">
    
-        
+     <div class="modal-dialog text-center">
+    <div class="col-sm-8 main-section">
+        <div class="modal-content">
     <div class="ini">
-        <h1>
-            <label class="nom"> inicie sesion</label>
-        </h1>
-        <div class="inicio">
+       <div class="col-12 user-img">
+                    <img src="imagenes/datos-del-usuario.png" />
+                </div>
         
-<form class="form" action="/validar/registro.html" method="post">
-                <div class="form-floating mb-3">
+        
+<form class="form" action="/validar/inicio_sesion.php" method="post" class="col-12">
+    <br><br><br>
+                <div class="form-group" id="user-group">
     <label for="floatingInput">Usuario</label>
   <input type="text" class="form-control" name="usuario" placeholder="usuario">
   
 </div>
-<div class="form-floating">
+<div class="form-group">
     <label for="floatingPassword">Contraseña</label>
   <input type="password" class="form-control" name="contraseña" placeholder="Contraseña">
-    
-    </div>
     <br>
-    <div class="col-md-4">
-    <input class="btn btn-primary" type="submit" value="Enviar">
     
-    </div>
+  <input class="btn btn-primary"  type="submit" name="login" value="Enviar">
+    <br><br>
    
-    <br>
+<a class="btn btn-primary" href="/formularios/registrarse.html" role="button">Registrarse</a>
    
-
-   
-   
-
-  
-   <div class="col-md-6">
-    <a class="btn btn-primary" href="/formularios/registrarse.html" role="button">Registrarse</a>
-    </div >   
-     <a class="btn btn-link" href="/formularios/recuperar.html" role="button">Recuperar Contraseña</a>
+    <a class="btn btn-link" href="/formularios/recuperar.html" role="button">Recuperar Contraseña</a>
+</div>
+                
                 </form>
         
         
@@ -55,10 +49,12 @@
   
             </div>
         
+         </div>  
         
+        </div>  
         
+      
         
-       
   
             
        
